@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="219.0" layoutY="29.0" text="Consulta pacientes confinados" />
+      <ScrollPane layoutX="8.0" layoutY="140.0" prefHeight="234.0" prefWidth="585.0">
+         <content>
+            <TableView prefHeight="233.0" prefWidth="576.0">
+              <columns>
+                <TableColumn prefWidth="93.0" text="DNI " />
+                <TableColumn prefWidth="96.0" text="Nombre" />
+                  <TableColumn prefWidth="96.0" text="Apellido" />
+                  <TableColumn prefWidth="96.0" text="Apellido" />
+                  <TableColumn prefWidth="96.0" text="Fecha Inicio" />
+                  <TableColumn prefWidth="96.0" text="Fecha Fin" />
+              </columns>
+            </TableView>
+         </content>
+      </ScrollPane>
+      <TextField layoutX="14.0" layoutY="102.0" prefHeight="25.0" prefWidth="79.0" />
+      <TextField layoutX="112.0" layoutY="102.0" prefHeight="25.0" prefWidth="79.0" />
+      <TextField layoutX="211.0" layoutY="102.0" prefHeight="25.0" prefWidth="79.0" />
+      <TextField layoutX="302.0" layoutY="102.0" prefHeight="25.0" prefWidth="79.0" />
+      <TextField layoutX="401.0" layoutY="102.0" prefHeight="25.0" prefWidth="79.0" />
+      <Button layoutX="497.0" layoutY="56.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Buscar" />
+      <TextField layoutX="497.0" layoutY="102.0" prefHeight="25.0" prefWidth="79.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.centroclinico.demo.controllers.PacienteController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="textFieldNombre" layoutX="77.0" layoutY="66.0" />
+            <TextField fx:id="textFieldApellido1" layoutX="77.0" layoutY="112.0" />
+            <TextField fx:id="textFieldApellido2" layoutX="249.0" layoutY="112.0" />
+            <Text layoutX="14.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre" />
+            <Text layoutX="14.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellidos" />
+            <TextField fx:id="textFieldDireccion" layoutX="77.0" layoutY="271.0" />
+            <Text layoutX="13.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dirección" />
+            <TextField fx:id="textFieldCodPostal" layoutX="313.0" layoutY="271.0" />
+            <Text layoutX="258.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C.Postal" />
+            <DatePicker fx:id="comboFechaNacPaciente" layoutX="139.0" layoutY="169.0" />
+            <Text layoutX="15.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha Nacimiento" />
+            <ChoiceBox fx:id="comboGenero" layoutX="415.0" layoutY="169.0" prefWidth="150.0" />
+            <Button fx:id="btnGuardar" layoutX="443.0" layoutY="330.0" mnemonicParsing="false" onAction="#savePaciente" prefHeight="25.0" prefWidth="95.0" text="Guardar" />
+            <Button fx:id="btnBorrar" layoutX="231.0" layoutY="330.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="95.0" text="Borrar" />
+            <TextField fx:id="textFieldDni" layoutX="77.0" layoutY="216.0" />
+            <Text layoutX="25.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DNI" />
+            <Label layoutX="349.0" layoutY="173.0" text="Genero" />
+            <ComboBox fx:id="comboEnfermero" layoutX="416.0" layoutY="216.0" prefWidth="150.0" />
+            <Label layoutX="312.0" layoutY="220.0" text="Enfermero" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

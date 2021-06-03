@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TextField layoutX="77.0" layoutY="66.0" />
+            <TextField layoutX="77.0" layoutY="112.0" />
+            <TextField layoutX="249.0" layoutY="112.0" />
+            <Text layoutX="14.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre" />
+            <Text layoutX="14.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellidos" />
+            <TextField layoutX="77.0" layoutY="271.0" />
+            <Text layoutX="13.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dirección" />
+            <TextField layoutX="313.0" layoutY="271.0" />
+            <Text layoutX="258.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C.Postal" />
+            <DatePicker layoutX="139.0" layoutY="169.0" />
+            <Text layoutX="15.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha Nacimiento" />
+            <ChoiceBox layoutX="415.0" layoutY="169.0" prefWidth="150.0" />
+            <Button layoutX="388.0" layoutY="330.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Guardar Cambios" />
+            <TextField layoutX="77.0" layoutY="216.0" />
+            <Text layoutX="25.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DNI" />
+            <Label layoutX="349.0" layoutY="173.0" text="Genero" />
+            <ComboBox layoutX="416.0" layoutY="216.0" prefWidth="150.0" />
+            <Label layoutX="312.0" layoutY="220.0" text="Enfermero" />
+            <Label layoutX="212.0" layoutY="27.0" text="Modificar Datos Paciente" />
+            <Button layoutX="63.0" layoutY="330.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="103.0" text="Baja" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

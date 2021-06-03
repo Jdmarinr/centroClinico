@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="342.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.centroclinico.demo.controllers.CentroController">
+   <children>
+      <Button mnemonicParsing="false" text="Button" />
+      <Button mnemonicParsing="false" text="Button" />
+      <Button mnemonicParsing="false" text="Button" />
+      <Button mnemonicParsing="false" text="Button" />
+   </children>
+   <center>
+      <Pane prefHeight="172.0" prefWidth="313.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnAltaEnfermero" layoutX="311.0" layoutY="32.0" mnemonicParsing="false" onAction="#altaEnfermeros" prefHeight="26.0" prefWidth="131.0" text="Enfermeria" />
+            <Button fx:id="btnAltaPaciente" layoutX="311.0" layoutY="75.0" mnemonicParsing="false" onAction="#altaPacientes" prefHeight="25.0" prefWidth="131.0" text="Pacientes" />
+            <Button fx:id="btnAltaTecnico" layoutX="318.0" layoutY="172.0" mnemonicParsing="false" onAction="#altaTecnicos" prefHeight="21.0" prefWidth="124.0" text="Tecnicos" />
+            <Button fx:id="btnMostrarPrueba" layoutX="318.0" layoutY="126.0" mnemonicParsing="false" onAction="#mostrarPruebas" prefHeight="25.0" prefWidth="124.0" text="Pruebas" />
+            <Button fx:id="btnAltaAdministracion" layoutX="116.0" layoutY="33.0" mnemonicParsing="false" onAction="#altasAdministracion" text="Administracion" />
+            <Button fx:id="btnConsultaVacunas" layoutX="319.0" layoutY="225.0" mnemonicParsing="false" onAction="#consultaVacunas" prefHeight="25.0" prefWidth="123.0" text="Vacunacion" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
